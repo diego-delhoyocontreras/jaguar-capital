@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jaguar Capital</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://kit.fontawesome.com/6816316eef.js" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    function changeEmail() {
+      var x = document.getElementById('emailSelect').value;
+      var element = document.getElementById('email');
+      element.innerHTML = x;
+      element.setAttribute("href","mailto:" + x);
+    }
+  </script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+         <ul>
+          <li id="logo-li">
+           <div class="logo">
+             <img src="images/logo.png" width="300px"  height="80px">
+           </div>
+          </li>
+          <li><a href="index.html" class="hide">Jaguar Capital</a></li>
+          <li><a href="strategies.html" class="hide">Investment Strategies</a></li>
+          <li><a href="risk.html" class="hide">Risk Management</a></li>
+          <li><a href="contact.html" class="hide">Contact</a></li>
+         </ul>
+          <div id="menu-li">
+            <div class="dropdown">
+              <button class="dropbtn"><i class="fas fa-bars" id="menu"></i></button>
+              <div class="dropdown-content">
+                <a href="index.html">Jaguar Capital</a>
+                <a href="strategies.html">Investment Strategies</a>
+                <a href="risk.html">Risk Management</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner-contact">
+          <h1>Contact Jaguar Capital</h1>
+          <h2>For
+            <select id="emailSelect" onchange=changeEmail()>
+              <option value="">Select</option>
+              <option value="media@jaguarcapital.com">Media</option>
+              <option value="investor@jaguarcapital.com">Investor</option>
+              <option value="careers@jaguarcapital.com">Careers</option>
+            </select>
+            inquiries please contact
+            <a id='email' href=""></a>
+          </h2>
+        </div>
+        <div class="welcome-contact">
+          <h1>Careers at Jaguar Capital</h1>
+          <p> Jaguar Capital is always keen to hear from exceptionally bright applicants (either experienced or graduates) who are ambitious, entrepreneurial, relish a challenge and have a keen sense of adventure by wanting to work in the fast growing emerging markets. We value mental agility, innovative thinking, and the ability to work collaboratively. Teamwork is as important to us as individual excellence.</p>
+          <p>We are particularly looking for graduates from a wide variety of disciplines. Although a background or previous experience in finance is not necessary, you must be numerate and keen on furthering your education. We can also provide work experience to penultimate and final year university students who are highly numerate.</p>
+          <p>For career opportunities with Jaguar Capital, please send a CV and covering letter to <a href="mailto:careers@jaguarcapital.com">careers@jaguarcapital.com</a></p>
+        </div>
+        <div class="card-section" id="locations">
+            <h1 class="cards-title">Our Global Offices</h1>
+            <div class="cards">
+              <div class="card">
+                <img src="images/london.jpg">
+                <h3>London</h3>
+                <a href="https://www.google.com/maps/place/Moor+House,+120+London+Wall,+London+EC2Y+5ET,+UK/@51.5179198,-0.0917666,17z/data=!3m1!4b1!4m5!3m4!1s0x48761caba1f02d9b:0xf350f1a0655e6336!8m2!3d51.5179198!4d-0.0895779" target="_blank"><p>120 London Wall,
+                   London EC2Y 5ET,
+                   UK</p></a>
+                <p> <u>TEL: 44.0.20.7645.9700</u> </p>
+              </div>
+              <div class="card">
+                <img src="images/newyork.jpg">
+                <h3>New York</h3>
+                <a href="https://www.google.com/maps/place/601+Lexington+Ave,+New+York,+NY+10022,+USA/@40.7584868,-73.9723803,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258e4b935add3:0x5871d38edc4129f9!8m2!3d40.7584868!4d-73.9701916" target="_blank"><p>601 Lexington Avenue
+                   New York, NY 10022, USA</p></a>
+                <p><u>TEL: 1.646.403.8200</u> </p>
+              </div>
+              <div class="card">
+                <img src="images/hongkong.jpg">
+                <h3>Honk Kong</h3>
+                <a href="https://www.google.com/maps/place/International+Finance+Center/@22.28588,114.1559423,17z/data=!3m2!4b1!5s0x3404006371c4ec15:0xb22ccd0f658a40b0!4m5!3m4!1s0x34040062fcdc4211:0x328e9d92fd98f7d!8m2!3d22.28588!4d114.158131" target="_blank"><p>8 Finance Street
+                   Hong Kong, HK999077, China</p></a>
+                <p><u>TEL: 852.3667.5500</u> </p>
+              </div>
+            </div>
+        </div>
+        <div class="header" id="header-bottom">
+         <ul>
+          <li id="logo-li">
+           <div class="logo-bottom">
+             <img src="images/logo.png" width="300px"  height="80px">
+           </div>
+          </li>
+          <li id="link"><a href="https://picc-penang.com/PICC_Terms_and_Conditions.pdf" target="_blank">Disclaimer</a></li>
+          <li id="link"><a href="https://www.capitalfundlaw.com/hubfs/Capitalfundlaw%20June2017/PDF/hedge%20fund%20investment%20terms.pdf?t=1531159942389" target="_blank">Terms and Conditions</a></li>
+          <li id="link"><a href="http://oz.stern.nyu.edu/startups/nda2.pdf" target="_blank">Privacy</a></li>
+         </ul>
+        </div>
+    </div>
+</body>
+</html>

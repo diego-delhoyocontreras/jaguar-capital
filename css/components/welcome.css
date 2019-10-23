@@ -1,0 +1,205 @@
+.welcome{
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 50%), url(../../images/london.jpg);
+  padding: 100px 75px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  height: 400px;
+}
+
+.welcome h1 {
+  font-size: 44px;
+  color: white;
+  left: 0;
+  position:absolute;
+  top: 30px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.welcome p {
+  font-size: 20px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 30px;
+  color: white;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 300px;
+}
+
+.welcome-strategies{
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 50%), url(../../images/strategies2.jpg);
+  padding: 100px 75px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  height: 400px;
+}
+
+.welcome-strategies h1{
+  font-size: 44px;
+  color: white;
+  left: 0;
+  position:absolute;
+  top: 30px;
+  width: 100%;
+  margin-top: 58px;
+  margin-bottom: 10px;
+}
+
+.welcome-strategies p {
+  font-size: 20px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 30px;
+  color: white;
+  margin: 20px 0px 0px 0px;
+  padding: 60px 300px;
+}
+
+.welcome-risk{
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 50%), url(../../images/us.jpg);
+  padding: 60px 75px 65px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  height: 400px;
+}
+
+.welcome-risk h1, .welcome-contact h1 {
+  font-size: 44px;
+  color: white;
+  left: 0;
+  position:relative;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.welcome-risk p, .welcome-contact p {
+  font-size: 20px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 30px;
+  color: white;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 300px;
+}
+
+.welcome-contact a {
+  font-size: 20px;
+  font-weight: lighter;
+  opacity: 0.8;
+  color: white;
+}
+
+.welcome-contact a:hover {
+  color: #d4d7dd;
+}
+
+.welcome-contact{
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 50%), url(../../images/us.jpg);
+  padding: 60px 75px 65px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  height: 600px;
+}
+
+@media (max-width: 1300px) {
+  /* For a screen < 960px, this CSS will be read */
+
+ .welcome p, .welcome-risk p, .welcome-contact p {
+    padding: 0px 250px;
+  }
+
+ .welcome-strategies p{
+  padding: 60px 250px;
+ }
+}
+
+@media (max-width: 1100px) {
+  /* For a screen < 960px, this CSS will be read */
+
+  .welcome p, .welcome-risk p, .welcome-contact p {
+    padding: 0px 160px;
+  }
+  .welcome-strategies p{
+   padding: 60px 180px;
+ }
+}
+
+@media (max-width: 1000px) {
+  /* For a screen < 720px, this CSS will be read */
+ .welcome-risk {
+    height: auto;
+  }
+
+@media (max-width: 900px) {
+  /* For a screen < 720px, this CSS will be read */
+ .welcome p, .welcome-risk p, .welcome-contact p {
+    padding: 0px 130px;
+  }
+  .welcome-strategies {
+   padding: 150px 20px;
+ }
+  .welcome-strategies p{
+   padding: 60px 130px;
+ }
+ .welcome-strategies h1{
+   margin-top: 20px;
+ }
+ .welcome-risk p, .welcome-contact p {
+    font-size: 16px;
+  }
+ .welcome-contact {
+   height: auto;
+ }
+}
+
+@media (max-width: 700px) {
+  /* For a screen < 960px, this CSS will be read */
+
+ .welcome p, .welcome-risk p, .welcome-contact p {
+    padding: 0px 80px;
+    font-size: 18px;
+  }
+  .welcome-strategies p{
+   padding: 60px 80px;
+ }
+ .welcome-strategies h1{
+   font-size: 35px;
+ }
+ .welcome-risk h1{
+   font-size: 35px;
+ }
+ .welcome-risk {
+   height: auto;
+ }
+}
+
+@media (max-width: 600px) {
+  /* For a screen < 960px, this CSS will be read */
+
+ .welcome p, .welcome-strategies p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+ .welcome p, .welcome-risk p, .welcome-contact p {
+    padding: 0px 25px;
+  }
+  .welcome-strategies p{
+   padding: 60px 25px;
+ }
+}
+
+

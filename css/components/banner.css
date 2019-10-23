@@ -1,0 +1,130 @@
+.banner {
+	background-image:linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/banner.jpg);
+	padding: 150px 75px;
+	background-size: cover;
+	background-position: center;
+	height: 390px;
+	position: relative;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 44px;
+  color: white;
+  left: 0;
+  position:absolute;
+  top: 30px;
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.banner h2 {
+	font-size: 24px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 100px;
+	color: white;
+  margin: 150px 0px 30px 0px;
+}
+
+@media (max-width:600px) {
+  .banner h2{
+    padding-top: 40px;
+  }
+}
+
+.banner-strategies{
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%), url(../../images/strategies-banner.jpg);
+  padding: 150px 75px;
+  background-size: cover;
+  background-position: center;
+  height: 390px;
+  position: relative;
+  text-align: center;
+}
+
+.banner-strategies h1, .banner-risk h1, .banner-contact h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+}
+
+.banner-strategies h2, .banner-risk h2, .banner-contact h2, .banner-contact h2 a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.banner-risk{
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 50%), url(../../images/risk.jpg);
+  padding: 150px 75px;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.banner2-risk{
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 50%), url(../../images/awards.png);
+  padding: 150px 75px;
+  background-size: cover;
+  background-position: center;
+  height: 390px;
+  position: relative;
+  text-align: center;
+}
+
+.banner-risk h1{
+  margin: 67px 0px 20px;
+}
+
+.banner-contact{
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%), url(../../images/london2.jpg);
+  padding: 150px 75px;
+  background-size: cover;
+  background-position: center;
+  height: 390px;
+  position: relative;
+  text-align: center;
+}
+
+.banner-contact h2 a:hover{
+  color: #d4d7dd;
+}
+
+@media (max-width:900px) {
+  .banner-strategies h1, .banner-risk h1, .banner-contact h1{
+    font-size: 60px;
+  }
+  .banner-strategies h2, .banner-risk h2 {
+    font-size: 30px;
+  }
+
+  .banner-contact h2, .banner-contact h2 a{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .banner2-risk{
+    height: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

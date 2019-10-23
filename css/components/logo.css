@@ -1,0 +1,25 @@
+.logo{
+  float: left;
+  padding-left: 25px;
+  padding-top: 32px;
+}
+
+@media (max-width:570px) {
+  .logo img{
+    width: 180px;
+    height: 48px;
+  }
+  .logo {
+    padding-top: 45px;
+  }
+}
+
+.logo-bottom{
+  float: left;
+  padding-left: 25px;
+  padding-top: 32px;
+}
+
+.logo-bottom img{
+  border-radius: 6px;
+}
